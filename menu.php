@@ -24,7 +24,10 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Styles de base -->
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <!-- Styles spécifiques pour le menu hamburger -->
+        <link href="menu.css" type="text/css" rel="stylesheet" />
         <!-- 1. Lien vers la CSS du module LightBox 
         A ajouter dans chacune des pages qui utilisent LightBox
         -->
@@ -46,3 +49,13 @@
                     <li><a href="liens.php">Liens</a></li>
                 </ul>
             </nav>
+            <!-- menu spécifique pour les écrans < 800px */
+            <nav class="menu" onclick="toggle();">
+                <ul>
+                    <li><a href="accueil.html">Accueil</a></li>
+                    <li><a href="presentation.html">Présentation</a></li>
+                    <li><a href="produits.html">Produits</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+            <img id="hamburger" src="images/hamburger.png" onclick="toggle();" />

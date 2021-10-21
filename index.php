@@ -15,5 +15,7 @@
                 <p class="entete"><a target="_blank" href="https://fr.wikipedia.org/wiki/Ville_de_Bruxelles">Sources : Wikipedia - Ville de Bruxelles</a></p>
             </main>
         </div>
+
+        <script src="menu.js"></script>
     </body>
 </html>

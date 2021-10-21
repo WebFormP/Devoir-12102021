@@ -1,0 +1,34 @@
+.menu {
+    background-color: cadetblue;
+    width : 250px;
+    height : 200px;
+    padding: 10px;
+
+    position:absolute;  /* la fenÃªtre semble Ãªtre sÃ©parÃ©e du reste du code */
+    z-index: 5;
+    top:0;
+    left:-270px;
+
+    /* transition pour faire disparaÃ®tre le menu */
+    transition: left 500ms ease 0ms;
+
+}
+
+/* pour afficher la fenÃªtre du menu */
+.menu.affiche {
+    left:0px;
+
+    /* transition pour faire apparaÃ®tre le menu */
+    transition: left 1s linear 0s;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color:white;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+}
