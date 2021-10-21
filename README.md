@@ -11,3 +11,7 @@ Il s'agit de transformer le site statique en un site PHP et de le rendre adaptat
   - la galerie photo s'adapte selon la largeur d'écran
   - la mise en page s'adapte selon la largeur d'écran
   - il reste à régler l'affichage du menu pour les différentes largeurs d'écran
+
+## Modifications du 21-10-2021
+
+- ajout du menu hamburger
