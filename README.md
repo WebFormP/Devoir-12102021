@@ -15,3 +15,5 @@ Il s'agit de transformer le site statique en un site PHP et de le rendre adaptat
 ## Modifications du 21-10-2021
 
 - ajout du menu hamburger
+- ajout du logo dans le menu pour grand écran
+- modification de l'affichage du menu (écrans moyen et grand) avec CSS Grid
