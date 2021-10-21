@@ -49,13 +49,16 @@
                     <li><a href="liens.php">Liens</a></li>
                 </ul>
             </nav>
-            <!-- menu spécifique pour les écrans < 800px */
-            <nav class="menu" onclick="toggle();">
+            <!-- menu spécifique pour les écrans < 800px -->
+            <nav class="menu_hamburger" onclick="toggle();">
                 <ul>
-                    <li><a href="accueil.html">Accueil</a></li>
-                    <li><a href="presentation.html">Présentation</a></li>
-                    <li><a href="produits.html">Produits</a></li>
-                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="index.php">Accueil</a></li>
+                    <li><a href="geographie.php">Géographie</a></li>
+                    <li><a href="histoire.php">Histoire</a></li>
+                    <li><a href="culture.php">Culture</a></li>
+                    <li><a href="galerie.php">Galerie</a></li>
+                    <li><a href="contact.php">Contacts</a></li>
+                    <li><a href="liens.php">Liens</a></li>
                 </ul>
             </nav>
             <img id="hamburger" src="images/hamburger.png" onclick="toggle();" />

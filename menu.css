@@ -1,33 +1,48 @@
-.menu {
-    background-color: cadetblue;
-    width : 250px;
-    height : 200px;
+/* positionnement du bouton déclencheur du menu hamburger */
+#hamburger {
+    display: block;     /* transformer l'image (inline) en block */
+    position: absolute;
+    top : 0px;
+    left: 0px;
+    z-index:10;         /* pour que l'image soit au-dessus du reste */
+}
+
+.menu_hamburger {
+    background-color: #A90331;
+    width : 250px;      /* fenêtre du menu est de 250px de large */
+    height : auto;
     padding: 10px;
 
-    position:absolute;  /* la fenÃªtre semble Ãªtre sÃ©parÃ©e du reste du code */
-    z-index: 5;
-    top:0;
-    left:-270px;
+    position:absolute;  /* la fenêtre semble être séparée du reste du code */
+    z-index: 5;         /* la fenêtre est au-dessus du reste de la page (banniere) */
 
-    /* transition pour faire disparaÃ®tre le menu */
+    top : 60px;         /* je décale la fenêtre du menu pour être sous le bouton */
+
+    /* comme la fenêtre du menu est de 250px de large, si la position en y (left) est au départ négative alors cette fenêtre est cachée. 
+    Si on veut la faire réapparaître, il faudra donner une valeur positive, ce qu'on fera dans la sélecteur suivant */
+    left:-270px;        
+
+    /* transition pour faire disparaître le menu */
     transition: left 500ms ease 0ms;
 
 }
 
-/* pour afficher la fenÃªtre du menu */
-.menu.affiche {
+/* pour afficher la fenêtre du menu */
+.menu_hamburger.affiche {
+    /* En donnant une valeur de 0px, on fait apparaître le menu */
     left:0px;
 
-    /* transition pour faire apparaÃ®tre le menu */
+    /* transition pour faire apparaître le menu */
     transition: left 1s linear 0s;
 }
 
-.menu ul li {
-    list-style: none;
+
+.menu_hamburger ul li {
+    list-style: none;       /* les puces de la liste sont effacées */
 }
 
-.menu ul li a {
-    text-decoration: none;
+.menu_hamburger ul li a {
+    text-decoration: none;  /* le souligné des liens est effacé */
     color:white;
     font-size: 200%;
     font-family: Arial, Helvetica, sans-serif;
