@@ -47,13 +47,5 @@
                         <figcaption>Palais Royal</figcaption>
                     </figure>
                 </div>
-            </main>	
-        </div>
-        
-        <!-- 2. Ajouter le JavaScript de LightBox juste avant la fermeture du body
-        A placer dans chacune des pages utilisant le module LightBox
-        -->
-        <script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
-        
-    </body>
-</html>
+            </main>
+<?php include('footer.php'); ?>            

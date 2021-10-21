@@ -85,6 +85,4 @@
                 <p class="retour_top"><a href="#top">Retour en haut de la page</a></p>
                 <div id="correctif"></div>
             </main>	
-        </div>	
-    </body>
-</html>
+<?php include('footer.php'); ?>

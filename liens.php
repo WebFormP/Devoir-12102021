@@ -24,6 +24,4 @@
                     <li><a href="#">Budapest</a></li>
                 </ul>
             </main>
-        </div>
-    </body>
-</html>
+<?php include('footer.php'); ?>

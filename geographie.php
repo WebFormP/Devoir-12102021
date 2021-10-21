@@ -36,6 +36,4 @@
                 Enfin, Bruxelles compte plus de 1 400 Organisations non gouvernementales.
                 </p>
             </main>	
-        </div>	
-    </body>
-</html>
+<?php include('footer.php'); ?>

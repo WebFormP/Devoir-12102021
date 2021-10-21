@@ -13,6 +13,4 @@
                     <div><input type="submit" id="frm1_submit" value="Envoyer votre message" /></div>
                 </form>
             </main>
-        </div>
-    </body>
-</html>
+<?php include('footer.php'); ?>

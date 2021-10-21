@@ -37,6 +37,4 @@
                 <p>
                 Durant la seconde partie du XXe siècle, Bruxelles devint progressivement une ville d'échanges internationaux, ce qui contribua à un afflux d'immigrants qui favorisèrent l'émergence du français ainsi que d'autres langues étrangères, aux dépens du néerlandais. Simultanément, suite à l'urbanisation, un nombre supplémentaire de communes précédemment néerlandophones de la Flandre environnante devinrent majoritairement francophones. Ce phénomène, connu en Flandre comme la « tache d'huile francophone », constitue, en même temps que la question du statut de Bruxelles, un des principaux sujets de contentieux de la politique belge.</p>
             </main>	
-        </div>	
-    </body>
-</html>
+<?php include('footer.php'); ?>
