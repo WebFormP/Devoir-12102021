@@ -1,19 +1,10 @@
-/* positionnement du bouton déclencheur du menu hamburger */
-#hamburger {
-    display: block;     /* transformer l'image (inline) en block */
-    position: absolute;
-    top : 0px;
-    left: 0px;
-    z-index:10;         /* pour que l'image soit au-dessus du reste */
-}
-
 .menu_hamburger {
     background-color: #A90331;
     width : 250px;      /* fenêtre du menu est de 250px de large */
     height : auto;
     padding: 10px;
 
-    position:absolute;  /* la fenêtre semble être séparée du reste du code */
+    position:fixed;  /* la fenêtre semble être séparée du reste du code */
     z-index: 5;         /* la fenêtre est au-dessus du reste de la page (banniere) */
 
     top : 60px;         /* je décale la fenêtre du menu pour être sous le bouton */
